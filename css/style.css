@@ -1,0 +1,393 @@
+@font-face {
+  font-family: Plateia;
+  src: url(../font/Plateia\ Bold.ttf);
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #111111);
+  color: white;
+}
+
+.top-bar {
+  color: #aaa;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.top-bar a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.top-bar a:hover {
+  color: #d4ff00;
+}
+
+.cta-btn .navbar-brand img {
+  width: 61%;
+  margin-top: -40px;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #d4ff00;
+}
+
+.menu-toggle {
+  background-color: #d4ff00;
+  border: 1px solid #444;
+  color: black;
+  padding: 6px 10px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.hero {
+  padding: 80px 20px;
+  background-image: url(../images/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 68px;
+  font-weight: bold;
+  font-family: 'Plateia';
+  width: 153% !important;
+  position: relative;
+  z-index: 9;
+  margin-top: 0px;
+}
+
+.highlight {
+  color: #d4ff00;
+}
+
+.cta-btn {
+  background-color: #333333;
+  border-left: 2px solid #d4ff00;
+  border-right: 2px solid #d4ff00;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: #fff;
+  padding: 12px 25px;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  color: #000;
+  background-color: #d4ff00;
+  text-decoration: none;
+}
+
+.category-scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.category-scroll span {
+  display: inline-block;
+  color: black;
+  background-color: #d4ff00;
+  margin: 0 10px;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+.headermenusec {
+  padding-left: 40px !important;
+  font-family: 'Montserrat';
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.secbst {
+  font-family: 'Montserrat';
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 100px;
+
+}
+
+.seclogow {
+  width: 68%;
+  margin-top: -40px;
+}
+
+/*  marquri */
+.secover {
+  overflow: hidden;
+  padding: 138px 0px 120px 0px;
+  position: relative;
+  margin-top: -80px;
+}
+
+.maeqsec2 {
+  background-color: #D5EE0C;
+  padding: 10px 0px;
+  transform: rotate(0deg);
+  margin-top: -75px;
+  margin-left: -20px;
+  margin-right: -20px;
+  position: relative;
+  z-index: 99;
+}
+
+.maeqsec1 {
+  background-color: #272727;
+  padding: 10px 0px;
+  transform: rotate(10deg);
+  margin-top: -40px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.maintextmarqflex {
+  display: flex;
+}
+
+.martext {
+  font-family: 'Plateia';
+  font-size: 28px;
+  color: #4E4E4E;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.martext2 {
+  font-family: 'Plateia';
+  font-size: 28px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.marimgsec {
+  animation: pxl_spin_rv 8s ease-out infinite;
+  -webkit-animation: pxl_spin_rv 8s ease-out infinite;
+}
+
+.secplabg {
+  padding-bottom: 60px;
+}
+
+.secplaetext {
+  text-align: center;
+  font-family: 'Plateia';
+  font-size: 35px;
+}
+
+.secfitextpl h6 {
+  font-family: 'Plateia';
+  font-size: 20px;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.secfitextpl h4 {
+  font-family: 'Plateia';
+  font-size: 40px;
+  color: #D5EE0C;
+  border: 1px solid #D5EE0C;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-right: -71px;
+  position: relative;
+  z-index: 9;
+}
+
+.secfitextpl p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: #9A9A9A;
+  padding-top: 20px;
+}
+
+.secbtnpla {
+  margin-top: 30px;
+}
+
+.secbtnpla a {
+  background-color: #333333;
+  border-left: 2px solid #d4ff00;
+  border-right: 2px solid #d4ff00;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: #fff;
+  padding: 12px 25px;
+  font-weight: 600;
+
+}
+
+.secbtnpla a:hover {
+  color: #000;
+  background-color: #d4ff00;
+  text-decoration: none;
+}
+
+.secnameanitext {
+  font-family: 'Plateia';
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+  /* color: #EEFB1333; */
+  color: transparent;
+  -webkit-text-stroke: 1px #EEFB1333;
+  fill: transparent;
+  position: outside;
+}
+.sec3secbumg{
+text-align: center;
+}
+
+/*  */
+.sechobb {
+  position: relative;
+  padding: 0;
+}
+.seclinbgtr{
+  padding-top: 50px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.sechobb:hover .overlay {
+  display: block;
+  background: #d4ff00c5;
+}
+
+
+.title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 80px;
+  font-weight: 700;
+  font-family: 'Plateia';
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.sechobb:hover .title {
+  color: #000;
+}
+.secexpbgtext h5{
+ font-family: 'Plateia';
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  /* color: #EEFB1333; */
+  color: transparent;
+  -webkit-text-stroke: 1px #363636;
+  fill: transparent;
+  position: outside;
+}
+.secexpbgtext h3{
+ font-family: 'Plateia';
+   font-size: 30px;
+   color: #fff;
+}
+.sechesexp {
+    display: flex;
+    justify-content: center;
+}
+
+.secjoinbg {
+  padding-bottom: 60px;
+}
+
+.secfitnbgexp{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.secvideomanbg{
+  padding: 60px 10px;
+}
+.secclassmainbg{
+  padding-bottom: 100px;
+}
+.secclasshesdtext{
+   font-family: 'Plateia';
+   font-size: 30px;
+   color: #fff;
+   margin: 0;
+}
+.secclastext{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #9A9A9A;
+}
+.sectableimg{
+  padding-top: 40px;
+}
+.secprimainbg{
+  padding-bottom: 60px;
+}
+.secpricebg{
+  padding: 20px;
+  margin-top: 40px;
+}
+.secpricebg:hover{
+  background-color: #191919;
+}
+.secpricebg h5{
+   font-family: 'Plateia';
+   font-size: 20px;
+}
+.secpricebg:hover h2{
+  color: #D5EE0C;
+}
+.secpricebg h2{
+   font-family: 'Plateia';
+   font-size: 40px;
+}
+.secpricebg h2 span{
+   font-family: 'Montserrat';
+   font-size: 18px;
+}
+.secptiti{
+  padding: 50px 0px;
+}
+.secptiti p{
+     font-family: 'Montserrat';
+   font-size: 16px;
+   color: #9A9A9A ;
+}
+.secprictbtn{
+padding-bottom: 40px;
+}
+.secprictbtn a{
+  background-color: #333333;
+  border-left: 2px solid #d4ff00;
+  border-right: 2px solid #d4ff00;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: #fff;
+  padding: 12px 25px;
+  font-weight: bold;
+}
+
+.secprictbtn a:hover{
+  color: #000;
+  background-color: #d4ff00;
+  text-decoration: none;
+}
