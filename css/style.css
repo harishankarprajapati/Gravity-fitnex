@@ -7,7 +7,12 @@ body {
   background: linear-gradient(135deg, #000000, #111111);
   color: white;
 }
+.container-fluid.py-0.sec-menu-bgg {
+    padding: 0;
+}
+/* togal menu */
 
+/* togal menu end */
 .top-bar {
   color: #aaa;
   font-size: 14px;
@@ -242,8 +247,9 @@ body {
   fill: transparent;
   position: outside;
 }
-.sec3secbumg{
-text-align: center;
+
+.sec3secbumg {
+  text-align: center;
 }
 
 /*  */
@@ -251,9 +257,11 @@ text-align: center;
   position: relative;
   padding: 0;
 }
-.seclinbgtr{
+
+.seclinbgtr {
   padding-top: 50px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -290,8 +298,9 @@ text-align: center;
 .sechobb:hover .title {
   color: #000;
 }
-.secexpbgtext h5{
- font-family: 'Plateia';
+
+.secexpbgtext h5 {
+  font-family: 'Plateia';
   font-size: 40px;
   text-align: center;
   font-weight: 700;
@@ -301,81 +310,99 @@ text-align: center;
   fill: transparent;
   position: outside;
 }
-.secexpbgtext h3{
- font-family: 'Plateia';
-   font-size: 30px;
-   color: #fff;
+
+.secexpbgtext h3 {
+  font-family: 'Plateia';
+  font-size: 30px;
+  color: #fff;
 }
+
 .sechesexp {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .secjoinbg {
   padding-bottom: 60px;
 }
 
-.secfitnbgexp{
+.secfitnbgexp {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.secvideomanbg{
+
+.secvideomanbg {
   padding: 60px 10px;
 }
-.secclassmainbg{
+
+.secclassmainbg {
   padding-bottom: 100px;
 }
-.secclasshesdtext{
-   font-family: 'Plateia';
-   font-size: 30px;
-   color: #fff;
-   margin: 0;
+
+.secclasshesdtext {
+  font-family: 'Plateia';
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
 }
-.secclastext{
+
+.secclastext {
   font-family: 'Montserrat';
   font-size: 16px;
   color: #9A9A9A;
 }
-.sectableimg{
+
+.sectableimg {
   padding-top: 40px;
 }
-.secprimainbg{
+
+.secprimainbg {
   padding-bottom: 60px;
 }
-.secpricebg{
+
+.secpricebg {
   padding: 20px;
   margin-top: 40px;
 }
-.secpricebg:hover{
+
+.secpricebg:hover {
   background-color: #191919;
 }
-.secpricebg h5{
-   font-family: 'Plateia';
-   font-size: 20px;
+
+.secpricebg h5 {
+  font-family: 'Plateia';
+  font-size: 20px;
 }
-.secpricebg:hover h2{
+
+.secpricebg:hover h2 {
   color: #D5EE0C;
 }
-.secpricebg h2{
-   font-family: 'Plateia';
-   font-size: 40px;
+
+.secpricebg h2 {
+  font-family: 'Plateia';
+  font-size: 40px;
 }
-.secpricebg h2 span{
-   font-family: 'Montserrat';
-   font-size: 18px;
+
+.secpricebg h2 span {
+  font-family: 'Montserrat';
+  font-size: 18px;
 }
-.secptiti{
+
+.secptiti {
   padding: 50px 0px;
 }
-.secptiti p{
-     font-family: 'Montserrat';
-   font-size: 16px;
-   color: #9A9A9A ;
+
+.secptiti p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #9A9A9A;
 }
-.secprictbtn{
-padding-bottom: 40px;
+
+.secprictbtn {
+  padding-bottom: 40px;
 }
-.secprictbtn a{
+
+.secprictbtn a {
   background-color: #333333;
   border-left: 2px solid #d4ff00;
   border-right: 2px solid #d4ff00;
@@ -386,8 +413,259 @@ padding-bottom: 40px;
   font-weight: bold;
 }
 
-.secprictbtn a:hover{
+.secprictbtn a:hover {
   color: #000;
   background-color: #d4ff00;
   text-decoration: none;
+}
+
+/* Testimonials */
+.sectestimainbg {
+  padding-bottom: 60px;
+}
+
+.sectestimbg {
+  background-image: url(../images/textembg.png);
+  background-position: top;
+  background-size: cover;
+  padding: 50px;
+}
+
+.bckgsec {
+  background-color: #000;
+  border-top: 5px solid #D5EE0C;
+  padding: 50px 50px;
+}
+
+.secrevbg h5 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.secrecname {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.secptena {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  color: #9A9A9A;
+}
+
+.reviw .owl-nav.disabled {
+  display: none;
+}
+
+.reviw .owl-nav {
+  display: none;
+}
+
+/* blog */
+.secblogmainbg {
+  padding: 0px 10px 60px 10px;
+}
+
+.secheadblog {
+  font-family: 'Montserrat';
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 1px #3D3D3D;
+  fill: transparent;
+  position: outside;
+}
+
+.seclisthead {
+  font-family: 'Plateia';
+  font-size: 35px;
+  text-align: center;
+}
+
+.secblogdate h4 {
+  position: absolute;
+  top: 29%;
+  right: -32px;
+  transform: rotate(90deg) translateX(-50%);
+  margin-top: -22px;
+  clip-path: polygon(0px 0px, 100% 0px, 88% 100%, 0% 100%);
+  background-color: #eefb13;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.45px;
+  color: #000;
+  padding: 0px 28px 0px 16px;
+  z-index: 99;
+}
+
+/* .secblogimg img:hover{
+      transform: scale(1.1) rotate(3deg);
+} */
+.secbloghead {
+  border: 1px solid #9a9a9a28;
+  padding: 20px 10px;
+}
+
+.secbloghead h3 {
+  margin: 0;
+  font-family: 'Plateia';
+  font-size: 19px;
+}
+
+.secblogbylin {
+  border: 1px solid #9a9a9a28;
+  border-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secblogbylin h6 {
+  font-family: 'Plateia';
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.secblogbylin h6 span {
+  color: #D5EE0C;
+}
+
+.secblogbylin p {
+  border-left: 1px solid #9a9a9a28;
+  padding: 10px;
+  margin: 0;
+}
+
+.secblogbylin p:hover {
+  background-color: #D5EE0C;
+  color: #000;
+}
+
+.secblogbylin p:hover a svg path {
+  fill: #000;
+}
+
+.bloglist .owl-nav.disabled {
+  display: none;
+}
+
+.bloglist .owl-dots {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bloglist button.owl-dot {
+  height: 16px;
+  background: #D5EE0C;
+  border: 4px solid #D5EE0C;
+  margin-right: 10px;
+}
+
+.bloglist button.owl-dot.active {
+  border: 4px solid #4E4E4E;
+}
+
+.secslidermainbgfoot {
+  padding-top: 60px;
+}
+
+.footerslider .owl-nav.disabled {
+  display: none;
+}
+
+.footerslider .owl-dots.disabled {
+  display: none;
+}
+
+/* footer */
+.secfooterbg {
+  background-color: #000;
+  background-image: url(../images/footerbg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.secallbg{
+  padding-bottom: 30px;
+}
+.secallbg h6 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  color: #EEFB13;
+  text-transform: uppercase;
+}
+
+.secallbg p a {
+  font-family: 'Plateia';
+  font-size: 20px;
+  color: #fff;
+}
+.secallbg2 h6 {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  color: #EEFB13;
+  text-transform: uppercase;
+}
+.secallbg2 p a {
+  font-family: 'Plateia';
+  font-size: 18px;
+  color: #fff;
+}
+.secfooteser{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+}
+.secalinfootext{
+  padding-top: 20px;
+}
+.secalinfootext p a{
+ font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #9A9A9A;
+}
+.secsocalfooterbg{
+  display: flex;
+      justify-content: center;
+}
+.secsocalfooterbg p{
+  padding-left: 20px;
+}
+.secsocalfooterbg p a{
+  padding: 10px 15px;
+  background-color: #ffffff27;
+  color: #fff;
+}
+.secpritexr{
+  text-align: end;
+   color: #586563;
+}
+.secpritexr a{
+  text-align: end;
+   font-family: 'Montserrat';
+  font-size: 14px;
+  color: #586563;
+}
+.secopy{
+       font-family: 'Montserrat';
+  font-size: 13px;
+  color: #9A9A9A;
 }
