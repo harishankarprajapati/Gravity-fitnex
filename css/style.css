@@ -7,12 +7,75 @@ body {
   background: linear-gradient(135deg, #000000, #111111);
   color: white;
 }
-.container-fluid.py-0.sec-menu-bgg {
-    padding: 0;
-}
-/* togal menu */
 
+.container-fluid.py-0.sec-menu-bgg {
+  padding: 0;
+}
+
+/* togal menu */
+.secallmenibg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectogalbg button.navbar-toggler {
+  background-color: #d4ff00;
+  border: 1px solid #444;
+  color: black;
+  padding: 6px 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 0;
+}
+
+.sectogalbg .navbar-toggler i{
+  font-size: 25px;
+}
+div#navbarOffcanvas2 {
+    background: #000;
+}
+.seceletext{
+  color: #fff;
+}
+.secmencontext{
+    font-family: 'Plateia';
+    color: #fff;
+    font-size: 30px;
+}
+.seccontbgmenu {
+  display: flex;
+  padding-top: 40px;
+}
+.pxl-item-icon{
+  width: 20%;
+  background-color: #110E10;
+  padding: 20px;
+}
+.pxl-item-icon i{
+  font-size: 40px;
+  color: #d4ff00;
+}
+.pxl-item-holder a{
+  text-decoration: none;
+}
+.pxl-item-title{
+    font-family: 'Montserrat';
+  font-size: 20px;
+  color: #fff;
+}
+.pxl-item-description{
+   font-family: 'Montserrat';
+  font-size: 16px;
+  color: #666  ;
+}
+.pxl-item-holder{
+  padding-left: 10px;
+}
 /* togal menu end */
+.secnaebr {
+  width: 100%;
+}
+
 .top-bar {
   color: #aaa;
   font-size: 14px;
@@ -599,9 +662,10 @@ body {
   padding-bottom: 20px;
 }
 
-.secallbg{
+.secallbg {
   padding-bottom: 30px;
 }
+
 .secallbg h6 {
   font-family: 'Montserrat';
   font-size: 14px;
@@ -615,6 +679,7 @@ body {
   font-size: 20px;
   color: #fff;
 }
+
 .secallbg2 h6 {
   font-family: 'Montserrat';
   font-size: 14px;
@@ -622,50 +687,60 @@ body {
   color: #EEFB13;
   text-transform: uppercase;
 }
+
 .secallbg2 p a {
   font-family: 'Plateia';
   font-size: 18px;
   color: #fff;
 }
-.secfooteser{
+
+.secfooteser {
   font-family: 'Montserrat';
   font-size: 20px;
   font-weight: 700;
 }
-.secalinfootext{
+
+.secalinfootext {
   padding-top: 20px;
 }
-.secalinfootext p a{
- font-family: 'Montserrat';
+
+.secalinfootext p a {
+  font-family: 'Montserrat';
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #9A9A9A;
 }
-.secsocalfooterbg{
+
+.secsocalfooterbg {
   display: flex;
-      justify-content: center;
+  justify-content: center;
 }
-.secsocalfooterbg p{
+
+.secsocalfooterbg p {
   padding-left: 20px;
 }
-.secsocalfooterbg p a{
+
+.secsocalfooterbg p a {
   padding: 10px 15px;
   background-color: #ffffff27;
   color: #fff;
 }
-.secpritexr{
+
+.secpritexr {
   text-align: end;
-   color: #586563;
+  color: #586563;
 }
-.secpritexr a{
+
+.secpritexr a {
   text-align: end;
-   font-family: 'Montserrat';
+  font-family: 'Montserrat';
   font-size: 14px;
   color: #586563;
 }
-.secopy{
-       font-family: 'Montserrat';
+
+.secopy {
+  font-family: 'Montserrat';
   font-size: 13px;
   color: #9A9A9A;
 }
