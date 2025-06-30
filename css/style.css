@@ -964,3 +964,87 @@ div#navbarOffcanvas2 {
     background-color: #d4ff00;
     text-decoration: none;
 }
+.sec-contact-padding {
+    padding: 60px 0px;
+}
+.sec-cont-hh {
+    font-family: 'Plateia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.sec-cont-pp {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.form-group label {
+    color: #fff;
+}
+.form-group {
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+.sec-menu-btn2 {
+   background-color: #333333;
+    border-left: 2px solid #d4ff00;
+    border-right: 2px solid #d4ff00;
+    border-top: 0px;
+    border-bottom: 0px;
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.sec-menu-btn2:hover{
+   color: #000;
+    background-color: #d4ff00;
+    text-decoration: none;
+}
+.contbgg {
+    background: #000;
+    border: 1px solid #d4ff00;
+    padding: 20px;
+}
+.sec-cont-hh2 {
+    font-family: 'Plateia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.seccont-add-h {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+}
+.seccont-add-h span i {
+    color: #d4ff00;
+}
+.seccont-add-p:hover{
+  color: #d4ff00;
+  text-decoration: none;
+}
+.seccont-add-h {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #fff;
+}
+.seccont-add-p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.iconsc span i {
+    color: #d4ff00;
+}

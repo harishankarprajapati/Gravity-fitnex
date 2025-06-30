@@ -235,6 +235,15 @@
     .sectecon {
         margin-bottom: 30px;
     }
+    .sec-cont-hh {
+    font-size: 35px;
+    }
+    .contbgg {
+    margin-top: 40px;
+    }
+    .sec-cont-hh2 {
+    font-size: 24px;
+    }
 }
 
 @media only screen and (max-width:430px) {}
