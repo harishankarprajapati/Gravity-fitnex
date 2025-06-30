@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #000000, #111111);
+  background: linear-gradient(135deg, #000000, #000);
   color: white;
 }
 
@@ -28,52 +28,64 @@ body {
   border-radius: 0;
 }
 
-.sectogalbg .navbar-toggler i{
+.sectogalbg .navbar-toggler i {
   font-size: 25px;
 }
+
 div#navbarOffcanvas2 {
-    background: #000;
+  background: #000;
 }
-.seceletext{
+
+.seceletext {
   color: #fff;
 }
-.secmencontext{
-    font-family: 'Plateia';
-    color: #fff;
-    font-size: 30px;
+
+.secmencontext {
+  font-family: 'Plateia';
+  color: #fff;
+  font-size: 30px;
 }
+
 .seccontbgmenu {
   display: flex;
   padding-top: 40px;
 }
-.pxl-item-icon{
+
+.pxl-item-icon {
   width: 20%;
   background-color: #110E10;
   padding: 20px;
 }
-.pxl-item-icon i{
+
+.pxl-item-icon i {
   font-size: 40px;
   color: #d4ff00;
 }
-.pxl-item-holder a{
+
+.pxl-item-holder a {
   text-decoration: none;
 }
-.pxl-item-title{
-    font-family: 'Montserrat';
+
+.pxl-item-title {
+  font-family: 'Montserrat';
   font-size: 20px;
   color: #fff;
 }
-.pxl-item-description{
-   font-family: 'Montserrat';
+
+.pxl-item-description {
+  font-family: 'Montserrat';
   font-size: 16px;
-  color: #666  ;
+  color: #666;
 }
-.pxl-item-holder{
+
+.pxl-item-holder {
   padding-left: 10px;
 }
+
 .sectogalbg .offcanvas-body {
-    height: 100%;
+  height: 100%;
 }
+
 /* togal menu end */
 .secnaebr {
   width: 100%;
@@ -588,7 +600,7 @@ div#navbarOffcanvas2 {
 .secbloghead h3 {
   margin: 0;
   font-family: 'Plateia';
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .secblogbylin {
@@ -746,4 +758,209 @@ div#navbarOffcanvas2 {
   font-family: 'Montserrat';
   font-size: 13px;
   color: #9A9A9A;
+}
+
+.secallinerbg {
+  background-image: url(../images/inerbg.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 10px 60px 10px;
+}
+
+.sectexiner {
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.sectexiner h2 {
+  font-family: 'Plateia';
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sectexiner p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sectexiner p a {
+  font-family: 'Plateia';
+  color: #fff;
+  font-size: 20px;
+}
+
+.secmainpagetext {
+  color: #EEFB13 !important;
+}
+
+.secblogmaibg .secblogdate h4 {
+  position: absolute;
+  top: 32%;
+}
+
+.sectecon {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.sectecon:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.sectecon img {
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+
+
+.sectecon .button {
+  position: absolute;
+  width: 100%;
+  left: 30px;
+  top: 250px;
+  background-color: rgba(0, 0, 0, .4);
+  backdrop-filter: blur(11.09843px);
+  text-align: left;
+  padding: 18px 0 13px 27px;
+  opacity: 0;
+  transition: opacity .35s ease;
+  border-left:2px solid #d4ff00 ;
+}
+
+.sectecon .button p {
+   font-family: 'Montserrat';
+  color: #d4ff00;
+    text-transform: uppercase;
+}
+.sectecon .button h4 {
+   font-family: 'Plateia';
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+}
+.sectecon:hover .button {
+  opacity: 1;
+}
+.secteamainbg{
+  padding: 60px 10px;
+}
+.secabouttext h3 {
+    font-family: 'Plateia';
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.secabouttext p {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.marrabout {
+    padding: 60px 10px;
+}
+.secvisbgg {
+    background-color: #25201B;
+    padding: 50px 100px;
+}
+.secvisintext {
+    font-family: 'Plateia';
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+.secvisintext2 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.foundd-bgg {
+    background-image: url(../images/Founderbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 100px;
+}
+.flodbackmargin {
+    background: #000;
+    padding: 40px;
+    margin-left: -100px !important;
+    margin: 100px 40px 40px 40px;
+}
+.flodbackmargin h2 {
+    font-family: 'Plateia';
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.flodbackmargin h4 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 600;
+}
+.flodbackmargin p {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+.sectemdetbg{
+  padding: 60px 10px;
+}
+.secdeatext h3{
+ font-family: 'Plateia';
+  color: #fff;
+   font-size: 25px;
+}
+.secdeatext h5{
+ font-family: 'Plateia';
+  color: #fff;
+   font-size: 16px;
+}
+.secdeatext p{
+    font-family: "Montserrat";
+     color: #fff;
+      font-size: 16px;
+}
+.secplan h2{
+  font-family: 'Plateia';
+  color: #fff;
+   font-size: 55px;
+   text-align: center;
+}
+.secbtnpla22 {
+    margin-top: 30px;
+    text-align: center;
+}
+.secbtnpla22 a {
+    background-color: #333333;
+    border-left: 2px solid #d4ff00;
+    border-right: 2px solid #d4ff00;
+    border-top: 0px;
+    border-bottom: 0px;
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.secbtnpla22 a:hover {
+    color: #000;
+    background-color: #d4ff00;
+    text-decoration: none;
 }
